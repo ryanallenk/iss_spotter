@@ -30,7 +30,7 @@ const printFlyTimes = function(flyTimes) {
     const date = new Date(0);
     date.setUTCSeconds(time.risetime);
     const duration = time.duration;
-    console.log(`Next pass at ${date} and it will last ${duration} seconds`);
+    console.log(`Next pass at ${date} and it will last ${duration}`);
   }
 }
 
